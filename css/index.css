@@ -71,7 +71,7 @@
   width: 150px;
   padding: 10px;
   }
-  img {
+  .left img {
     border-radius: 50%;
   }
   .grid-container {
@@ -82,8 +82,7 @@
     padding-left: 150px;
   }
   .grid-item {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 2px solid rgba(0, 0, 0, 0.8);
+    background-color: #faf0f6;
     padding: 20px;
     font-size: 20px;
     text-align: start;
@@ -109,12 +108,11 @@
       }
       .grid-item {
         background-color: rgba(255, 255, 255, 0.8);
-        border: 2px solid rgba(0, 0, 0, 0.8);
         padding: 10px;
         font-size: 20px;
         text-align: start;
       }
       .grid-container {
-        grid-gap: 50px;
+        grid-gap: 150px;
       }
 }
